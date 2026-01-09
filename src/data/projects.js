@@ -24,7 +24,7 @@ export const projects = [
     category: "e-commerce",
     image:
       "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
-    vercelUrl: "#",
+    vercelUrl: "https://ghanikale.pythonanywhere.com/",
   },
 
   /* ===================== LANDING PAGE ===================== */
@@ -62,7 +62,7 @@ export const projects = [
     description: "Professional company profile website for agency.",
     category: "company-profile",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "./asset/cp-agency.png",
     vercelUrl: "https://cp-agency-zeta.vercel.app/",
   },
   {
@@ -71,8 +71,8 @@ export const projects = [
     description: "Corporate website to build trust & credibility.",
     category: "company-profile",
     image:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80",
-    vercelUrl: "https://corporate-business-omqx-git-main-ghanikales-projects.vercel.app/",
+      "./asset/corporate.png",
+    vercelUrl: "https://corporate-business-omqx.vercel.app/",
   },
   {
     id: 9,
@@ -90,7 +90,7 @@ export const projects = [
     description: "Education website for online courses & learning.",
     category: "education",
     image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+      "./asset/course.png",
     vercelUrl: "https://course-platform-gray.vercel.app/",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     description: "School profile website with information & programs.",
     category: "education",
     image:
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80",
+      "./asset/school.png",
     vercelUrl: "https://school-web-indol.vercel.app/",
   },
     {
@@ -108,8 +108,8 @@ export const projects = [
     description: "Website for online training & certification.",
     category: "education",
     image:
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80",
-    vercelUrl: "https://training-platform-rouge.vercel.app//",
+      "./asset/training.png",
+    vercelUrl: "https://training-platform-rouge.vercel.app/",
   },
   {
     id: 13,
@@ -128,7 +128,7 @@ export const projects = [
     description: "Car rental website with booking & contact feature.",
     category: "rental",
     image:
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80",
+      "./asset/rent-car.png",
     vercelUrl: "https://rent-car-topaz.vercel.app/",
   },
   {
@@ -137,7 +137,7 @@ export const projects = [
     description: "Motorbike rental website with pricing & contact.",
     category: "rental",
     image:
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&q=80",
+      "./asset/rent-motor.png",
     vercelUrl: "https://rent-motorbike-gray.vercel.app/"
   },
   {
@@ -146,7 +146,7 @@ export const projects = [
     description: "Rental website for houses, apartments & rooms.",
     category: "rental",
     image:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+      "./asset/rent-property.png",
     vercelUrl: "https://rent-property-amber.vercel.app/",
   },
   {
