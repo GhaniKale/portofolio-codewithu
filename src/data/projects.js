@@ -5,7 +5,7 @@ export const projects = [
     title: "Cerah Laundry",
     description: "A web app for online laundry service management and orders.",
     category: "e-commerce",
-    image: "./asset/laundry.png",
+    image: "public/image/laundry.png",
     vercelUrl: "https://cerah-laundry-app.vercel.app",
   },
   {
@@ -13,8 +13,7 @@ export const projects = [
     title: "Skincare Online Shop",
     description: "Modern e-commerce website for beauty & skincare products.",
     category: "e-commerce",
-    image:
-      "./asset/skincare.png",
+    image: "public/image/skincare.png",
     vercelUrl: "https://skincare-marketplace.vercel.app/",
   },
   {
@@ -22,8 +21,7 @@ export const projects = [
     title: "Electronics Store",
     description: "Online store for selling gadgets & electronics.",
     category: "e-commerce",
-    image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    image: "public/image/electronics.png",
     vercelUrl: "https://ghanikale.pythonanywhere.com/",
   },
 
@@ -33,8 +31,7 @@ export const projects = [
     title: "Startup Landing Page",
     description: "High-converting landing page for startup & SaaS.",
     category: "landing-page",
-    image:
-      "./asset/startup.png",
+    image: "public/image/startup.png",
     vercelUrl: "https://startup-lp-orpin.vercel.app/",
   },
   {
@@ -42,8 +39,7 @@ export const projects = [
     title: "Product Launch Page",
     description: "Landing page for product launch & online marketing.",
     category: "landing-page",
-    image:
-      "./asset/product.png",
+    image: "public/image/product.png",
     vercelUrl: "https://product-lp-gray.vercel.app/",
   },
   {
@@ -51,7 +47,7 @@ export const projects = [
     title: "Personal Branding",
     description: "Personal landing page for Photographer & Creative Design.",
     category: "landing-page",
-    image: "./asset/portofolio.png",
+    image: "public/image/portofolio.png",
     vercelUrl: "https://portofolio-black-theta.vercel.app/",
   },
 
@@ -61,8 +57,7 @@ export const projects = [
     title: "Company Profile Agency",
     description: "Professional company profile website for agency.",
     category: "company-profile",
-    image:
-      "./asset/cp-agency.png",
+    image: "public/image/cp-agency.png",
     vercelUrl: "https://cp-agency-zeta.vercel.app/",
   },
   {
@@ -70,8 +65,7 @@ export const projects = [
     title: "Corporate Business Website",
     description: "Corporate website to build trust & credibility.",
     category: "company-profile",
-    image:
-      "./asset/corporate.png",
+    image: "public/image/corporate.png",
     vercelUrl: "https://corporate-business-omqx.vercel.app/",
   },
   {
@@ -79,7 +73,7 @@ export const projects = [
     title: "Company Profile RS",
     description: "Company profile website for Hospital.",
     category: "company-profile",
-    image: "./asset/rs.png",
+    image: "public/image/rs.png",
     vercelUrl: "https://profile-rs.vercel.app/",
   },
 
@@ -89,8 +83,7 @@ export const projects = [
     title: "Online Course Platform",
     description: "Education website for online courses & learning.",
     category: "education",
-    image:
-      "./asset/course.png",
+    image: "public/image/course.png",
     vercelUrl: "https://course-platform-gray.vercel.app/",
   },
   {
@@ -98,17 +91,15 @@ export const projects = [
     title: "School Website",
     description: "School profile website with information & programs.",
     category: "education",
-    image:
-      "./asset/school.png",
+    image: "public/image/school.png",
     vercelUrl: "https://school-web-indol.vercel.app/",
   },
-    {
+  {
     id: 12,
     title: "Online Training Platform",
     description: "Website for online training & certification.",
     category: "education",
-    image:
-      "./asset/training.png",
+    image: "public/image/training.png",
     vercelUrl: "https://training-platform-rouge.vercel.app/",
   },
   {
@@ -117,7 +108,7 @@ export const projects = [
     description:
       "An educational productivity app using the Pomodoro technique for focused learning.",
     category: "education",
-    image: "./asset/todo.png",
+    image: "public/image/todo.png",
     vercelUrl: "https://pomodoro-todo-iota.vercel.app/",
   },
 
@@ -127,8 +118,7 @@ export const projects = [
     title: "Car Rental Website",
     description: "Car rental website with booking & contact feature.",
     category: "rental",
-    image:
-      "./asset/rent-car.png",
+    image: "public/image/rent-car.png",
     vercelUrl: "https://rent-car-topaz.vercel.app/",
   },
   {
@@ -136,17 +126,15 @@ export const projects = [
     title: "Motorbike Rental",
     description: "Motorbike rental website with pricing & contact.",
     category: "rental",
-    image:
-      "./asset/rent-motor.png",
-    vercelUrl: "https://rent-motorbike-gray.vercel.app/"
+    image: "public/image/rent-motor.png",
+    vercelUrl: "https://rent-motorbike-gray.vercel.app/",
   },
   {
     id: 16,
     title: "Property Rental Website",
     description: "Rental website for houses, apartments & rooms.",
     category: "rental",
-    image:
-      "./asset/rent-property.png",
+    image: "public/image/rent-property.png",
     vercelUrl: "https://rent-property-amber.vercel.app/",
   },
   {
@@ -155,7 +143,7 @@ export const projects = [
     description:
       "An educational productivity app with activity and habit tracking features.",
     category: "education",
-    image: "./asset/priduktivity.png",
+    image: "public/image/priduktivity.png",
     vercelUrl: "https://produktivity.vercel.app/",
   },
 ];
