@@ -21,7 +21,7 @@ export const projects = [
     title: "Electronics Store",
     description: "Online store for selling gadgets & electronics.",
     category: "e-commerce",
-    image: "public/image/electronik.png",
+    image: "public/image/elektronik.png",
     vercelUrl: "https://ghanikale.pythonanywhere.com/",
   },
 
