@@ -73,7 +73,7 @@ export default function Contact() {
                     Phone
                   </span>
                   <p className="text-white font-medium text-sm leading-tight">
-                    +62 812 xxxx xxxx
+                    +62 859 7284 2784
                   </p>
                 </div>
               </div>

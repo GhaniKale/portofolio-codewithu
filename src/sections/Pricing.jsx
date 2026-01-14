@@ -1,22 +1,25 @@
 const plans = [
   {
-    name: "Basic",
-    price: "Rp750.000",
-    oldPrice: "Rp1.000.000",
+    name: "Basic - Landing Page",
+    description: "UMKM kecil, personal branding, jualan via Whatsapp, testing ide",
+    price: "Rp150.000",
+    oldPrice: "Rp300.000",
     accent: "from-blue-500 to-cyan-400",
     border: "border-blue-500/40",
     features: [
       "Landing page 1 halaman",
-      "Responsive (Mobile friendly)",
+      "Responsive (Mobile)",
       "Basic SEO",
       "Free revisi 1x",
     ],
+    notinclude: ["Domain & hosting", "Copywriting konten", "Maintenance bulanan","Admin panel/CMS"],
     wa: "Paket Basic",
   },
   {
-    name: "Pro",
-    price: "Rp1.500.000",
-    oldPrice: "Rp2.000.000",
+    name: "Pro - Website Bisnis",
+    description: "Pilihan ideal untuk bisnis yang butuh website lengkap dan rapi.",
+    price: "Rp750.000",
+    oldPrice: "Rp1.500.000",
     accent: "from-purple-500 to-pink-500",
     border: "border-purple-500/50",
     best: true,
@@ -25,13 +28,17 @@ const plans = [
       "React + Tailwind",
       "Integrasi API / Form",
       "Free revisi 3x",
+      "Domain & hosting",
     ],
+    notinclude: [ "Custom ilustrasi", "Maintenance bulanan","Admin panel/CMS"],
     wa: "Paket Pro",
   },
   {
-    name: "Premium",
-    price: "Rp2.500.000",
-    oldPrice: "Rp3.500.000",
+    name: "Premium - Costum Web App",
+    description:
+      "Untuk kebutuhan web app custom dengan performa dan dukungan prioritas.",
+    price: "Rp1.500.000",
+    oldPrice: "Rp3.000.000",
     accent: "from-indigo-500 to-blue-500",
     border: "border-blue-500/40",
     features: [
@@ -39,7 +46,12 @@ const plans = [
       "Dashboard / CMS ringan",
       "Optimasi performa",
       "Support prioritas",
+      "Domain & hosting",
+      "Biaya layanan pihak ketiga",
+      "Maintenance bulanan",
+      "Admin panel/CMS",
     ],
+     notinclude: [],
     wa: "Paket Premium",
   },
 ];
@@ -101,6 +113,9 @@ export default function Pricing() {
               <h3 className="text-xl font-bold mb-4 text-center z-10">
                 {plan.name}
               </h3>
+              <p className="text-gray-400 text-sm text-center mb-6 z-10">
+                {plan.description}
+              </p>
 
               {/* PRICE */}
               <div className="text-center mb-8 z-10">
@@ -118,6 +133,16 @@ export default function Pricing() {
                 {plan.features.map((item) => (
                   <li key={item} className="flex gap-3">
                     <span className="text-green-400">✔</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              {/* NOT INCLUDE */}
+              <ul className="flex-1 text-gray-300 space-y-4 mb-10 text-sm z-10">
+                {plan.notinclude.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-red-400">X</span>
                     {item}
                   </li>
                 ))}
