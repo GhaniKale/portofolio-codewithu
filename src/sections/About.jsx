@@ -129,7 +129,9 @@ export default function About() {
               <p className="text-gray-300 mb-4">
                 Interested in working together?
               </p>
-              <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 font-semibold hover:scale-105 transition">
+              <button 
+                onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}
+                className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 font-semibold hover:scale-105 transition">
                 Get Started
               </button>
             </div>

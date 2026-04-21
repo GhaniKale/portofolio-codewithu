@@ -1,8 +1,6 @@
 import {
   Instagram,
   Facebook,
-  Twitter,
-  Linkedin,
   MapPin,
   Phone,
   Mail,
@@ -16,13 +14,7 @@ export default function Footer() {
       label: "Instagram",
       url: "https://instagram.com/code.withu",
     },
-    { icon: Facebook, label: "Facebook", url: "https://facebook.com/username" },
-    { icon: Twitter, label: "Twitter", url: "https://twitter.com/username" },
-    {
-      icon: Linkedin,
-      label: "LinkedIn",
-      url: "https://linkedin.com/in/username",
-    },
+    { icon: Facebook, label: "Facebook", url: "https://www.facebook.com/profile.php?id=61575421418835" },
   ];
 
   const navLinks = [
@@ -99,9 +91,9 @@ export default function Footer() {
               <li className="grid grid-cols-[20px_1fr] items-center gap-3">
                 <Mail size={18} />
                 <a
-                  href="mailto:codewithu@gmail.com"
+                  href="mailto:withucode@gmail.com"
                   className="hover:text-blue-400 transition">
-                  withucode@email.com
+                  withucode@gmail.com
                 </a>
               </li>
 

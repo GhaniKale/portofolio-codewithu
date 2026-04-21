@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
@@ -10,6 +10,26 @@ export default function Navbar() {
     { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
   ];
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActive(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: "-30% 0px -40% 0px" }
+    );
+
+    menu.forEach((item) => {
+      const section = document.getElementById(item.id);
+      if (section) observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur border-b border-gray-800">

@@ -23,9 +23,12 @@ export default function Contact() {
     e.preventDefault();
     setStatus("sending");
     try {
-      const response = await fetch("https://formspree.io/f/xxxxxx", {
+      const response = await fetch("https://formsubmit.co/ajax/withucode@gmail.com", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
         body: JSON.stringify(formData),
       });
 
@@ -88,7 +91,7 @@ export default function Contact() {
                     Email
                   </span>
                   <p className="text-white font-medium text-sm leading-tight">
-                    withucode@email.com
+                    withucode@gmail.com
                   </p>
                 </div>
               </div>
@@ -193,7 +196,7 @@ export default function Contact() {
               <input
                 type="email"
                 required
-                placeholder="withucode@email.com"
+                placeholder="withucode@gmail.com"
                 value={formData.email}
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
