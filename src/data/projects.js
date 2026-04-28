@@ -146,4 +146,22 @@ export const projects = [
     image: "/image/priduktivity.png",
     vercelUrl: "https://produktivity.vercel.app/",
   },
+  {
+    id: 18,
+    title: "Travel",
+    description:
+      "Website for travel agency.",
+    category: "travel",
+    image: "/image/travel.png",
+    vercelUrl: "https://travel-zeta-kohl.vercel.app/",
+  },
+  {
+    id: 19,
+    title: "Recruitment",
+    description:
+      "Website for recruitment agency.",
+    category: "recruitment",
+    image: "/image/recruitment.png",
+    vercelUrl: "https://www.akuursauyunan.web.id/",
+  },
 ];
