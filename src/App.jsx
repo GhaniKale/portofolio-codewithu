@@ -5,7 +5,6 @@ import Projects from "./sections/Projects";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 import { useEffect, useState } from "react";
-import FloatingWhatsapp from "./components/FloatingWhatsapp";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 
@@ -24,7 +23,7 @@ export default function App() {
       <Projects />
       <Contact />
       <Footer />
-      <FloatingWhatsapp />
+      {/* <FloatingWhatsapp /> */}
     </>
   );
 }
